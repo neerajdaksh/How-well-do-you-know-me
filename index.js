@@ -4,7 +4,7 @@ var readlineSync = require('readline-sync');
 var score = 0;
 
 //take the user name
-var userName = readlineSync.question(chalk.red('Hello! What is Your name? '));
+var userName = readlineSync.question('Hello! What is Your name? ');
 
 console.log("Welcome "+userName+" to DO YOU KNOW Neeraj? ");
 console.log("--------------------------");
